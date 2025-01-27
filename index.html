@@ -140,12 +140,16 @@
                 <img src="sub/c.jpg" alt="Photo description 3">
                 <div class="gallery-caption">Microsoft Bluehat talk</div>
             </div>
+            <div class="gallery-item" onclick="openModal('sub/d.jpg', 'xPlore development conference')">
+                <img src="sub/d.jpg" alt="Photo description 4">
+                <div class="gallery-caption">xPlore development conference</div>
+            </div>
             <!-- Add more photos as needed -->
         </div>
     </section>
 
     <!-- Modal for Photo Popup -->
-    <div id="photoModal" class="modal" onclick="closeModal()">
+    <div id="photoModal" class="modal">
         <span class="close" onclick="closeModal()">&times;</span>
         <img class="modal-content" id="modalImage">
         <div id="modalCaption"></div>
